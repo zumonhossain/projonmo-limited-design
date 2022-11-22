@@ -49,6 +49,9 @@ button {
 	color: #1696e7;
 	outline: medium none;
 }
+a{
+    text-decoration: none;
+}
 .uppercase {
 	text-transform: uppercase;
 }
@@ -159,13 +162,119 @@ label {
     Header
 ==========================================
 */
+.header-area {
+    background: #263238;
+    padding: 23px 0px;
+}
+.header-logo{}
+.header-logo img {
+    width: 200px;
+    height: 60px;
+}
+.header-menu{
+    height: 60px;
+}
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header-menu ul li:last-child{
+    margin-right: 0px;
+}
+.header-menu ul li a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header-menu ul li a:hover{}
+.header-right-btn {
+    background: #990000;
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+a.header-btn {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+.header-btn:hover{
 
+}
 /*
 ==========================================
-    Area Css
+    Banner Area Css
 ==========================================
 */
-
+.banner-area {
+    background: #263238;
+    padding: 60px 0px;
+}
+.banner-left-side{}
+.banner-content{}
+.banner-title{}
+.banner-title h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+.banner-head{}
+.banner-head h1 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 46px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+.banner-head h1 {
+    
+}
+.banner-description{}
+.banner-description p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.banner-btn-group{}
+.banner-btn-one {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 35px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    display: inline-block;
+}
+.banner-btn-two{}
+.banner-right-side{}
+.banner-image{}
+.banner-image img{}
 /*
 ==========================================
     Area Css
